@@ -1,0 +1,58 @@
+/*cambiamos el estilo de fuente */
+body{font-family: sans-serif;}
+
+/*creamos un menu de navegación*/
+nav{
+     /*  outline: 1px solid purple;*/
+     width: 200px;
+}
+ /*modificamos la lista desordenada */
+ul{
+   /*outline: 1px solid yellow;*/
+   list-style: none;
+   margin:0;
+   padding: 0;
+}
+
+/*color a la linea de la lista*/
+li{
+    /*outline: 1px solid red;*/
+    background: #f5f5f0;
+}
+
+/*Estados de los enlaces: LOVE/Hate Link Visited Hover Active*/
+/*modificamos la parte del enlace externo*/
+a  {
+     /*outline: 1px solid green;*/
+     display: block;
+     text-decoration: none;
+     color:#000;
+     line-height: 30px;
+     padding-left: 10px;
+   }
+
+/*cambia el color al pulsar el mause*/
+a:hover{
+  background: #e0e0d1;
+}
+ /*cambiarle el color al enlace activo.*/
+a:active{
+  background: #333;
+  color:#fff;
+}
+/*la primera linea de la lista se cambia el color*/
+ul li:first-child{
+  background: #f9a91a;
+}
+/*la primera linea de la lista se cambia el color cuando se haga clic en el enlace externo*/
+ul li:first-child a{
+  color :#fff;
+}
+/*cambio de color al pasar el mouse*/
+ul li:first-child a:hover{
+  color :#000;
+}
+/*cambio de color cuando presionen en el enlace*/
+ul li:first-child a:active{
+  color :#fff;
+}
